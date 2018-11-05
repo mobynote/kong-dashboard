@@ -68,7 +68,7 @@ docker run --rm -p [port]:8080 pgbi/kong-dashboard start --kong-url http://kong:
 
 # Start Kong Dashboard with basic auth
 docker run --rm -p 8080:8080 pgbi/kong-dashboard start \
-  --kong-url http://kong:8001
+  --kong-url http://kong:8001 \
   --basic-auth user1=password1 user2=password2
 
 # See full list of start options
